@@ -20,7 +20,7 @@ const scriptLoader = `
   </script>
 `;
 
-export default () => {
+const Index = () => {
   return (
     <>
       <Head>
@@ -36,3 +36,5 @@ export default () => {
     </>
   );
 };
+
+export default Index;

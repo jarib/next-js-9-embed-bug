@@ -1,5 +1,7 @@
 if (document.querySelector("#script-loader")) {
-  console.log("all ok");
+  console.log("NO ERROR - ALL OK");
 } else {
-  throw new Error("cannot find the script el that loaded me, #script-loader");
+  var msg = "cannot find the script el that loaded me, #script-loader";
+  console.log(msg);
+  throw new Error(msg);
 }
